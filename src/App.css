@@ -1,0 +1,35 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  /* padding: 2rem; */
+  text-align: center;
+}
+.navbar-toggler-icon {
+  background-image: url("https://i.postimg.cc/d1PL2mq7/icons8-menu-50-1.png") !important;
+  height: 2rem !important;
+  width: 2.75rem !important;
+}
+
+.navbar-brand span {
+  font-size: 40px !important;
+  margin: 0 auto;
+}
+li a {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+ul {
+  gap: 2rem !important;
+}
+.active {
+ opacity: 0.5 !important;
+ transform: scale(0.85) !important;  
+ transition:  ease 0.5s;
+}
+#dwn {
+  font-size: 16px !important;
+}
+
+
