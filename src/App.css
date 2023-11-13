@@ -1,8 +1,5 @@
 #root {
-  /* max-width: 1280px; */
   margin: 0;
-  /* padding: 2rem; */
-  text-align: center;
 }
 .navbar-toggler-icon {
   background-image: url("https://i.postimg.cc/d1PL2mq7/icons8-menu-50-1.png") !important;
@@ -16,7 +13,7 @@
 }
 li a {
   color: #ffffff !important;
-  text-decoration: underline !important;
+  /* text-decoration: underline !important; */
   font-size: 24px !important;
   font-weight: bold !important;
 }
@@ -30,6 +27,12 @@ ul {
 }
 #dwn {
   font-size: 16px !important;
+}
+
+@media (min-width: 768px) {
+  li a {
+    text-decoration: underline !important;
+  }
 }
 
 
