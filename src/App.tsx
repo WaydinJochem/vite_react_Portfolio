@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import "bootstrap/dist/css/bootstrap.css";
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Footer from "./Components/Footer";
 import imagePath from './assets/react.svg'
 
 function App() {
@@ -9,6 +8,7 @@ function App() {
   return (
     <>
       <Navbar brandName="Menu" imageScrPath={imagePath} navItems={items}/>
+      <Footer/>
     </>
   );
 }

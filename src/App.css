@@ -34,5 +34,9 @@ ul {
     text-decoration: underline !important;
   }
 }
-
+@media (max-width: 568px) {
+  li a {
+    text-underline-offset: 20rem;
+  }
+}
 

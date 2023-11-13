@@ -1,0 +1,28 @@
+body {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+}
+footer {
+    padding: 2rem;
+    margin: auto;
+}
+hr {
+    border-radius: 20px;
+    border-top: 4px solid #FFFFFF; 
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+section div {
+    padding: 0 3rem;
+}
+/* #location {
+    background-color: #000000;
+} */
+#copyright {
+    display: flex;
+    justify-content: center;
+}
