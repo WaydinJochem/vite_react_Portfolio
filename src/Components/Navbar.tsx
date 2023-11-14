@@ -12,10 +12,9 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
   const [selectedIndex, setselectedIndex] = useState(-1);
   return (
     <>
-      <nav className="navbar navbar-light bg-black fw-bold navbar-expand-lg w-sm-25">
+      <nav className="navbar navbar-light bg-black fw-bold navbar-expand-lg w-sm-25 px-md-5">
         <div className="container-fluid">
           <a className="navbar-brand d-none d-md-block" href="#">
-            <img src={imageScrPath} width="60" height="60" alt="" />
             <span className="fw-bolder fs-4 text-white">{brandName}</span>
           </a>
           {/* Nav Button */}
@@ -54,8 +53,7 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
                   Download CV
                 </a>
                 <div
-                  className="d-flex
-                  justify-content-center"
+                  className="d-flex justify-content-center align-items-center"
                 >
                   <img src={imageScrPath} alt="" />
                 </div>
@@ -65,8 +63,7 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
           {/* Nav Items End */}
 
           <a className="navbar-brand d-md-none mx-auto" href="#">
-            <img src={imageScrPath} width="60" height="60" alt="" />
-            <span className="fw-bolder fs-4 text-white">Navigation</span>
+            <span className="fw-bolder fs-4 text-white ">Navigation</span>
           </a>
         </div>
       </nav>
