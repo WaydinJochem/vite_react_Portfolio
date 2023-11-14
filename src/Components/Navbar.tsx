@@ -12,11 +12,9 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
   const [selectedIndex, setselectedIndex] = useState(-1);
   return (
     <>
-      <nav className="navbar navbar-light bg-black fw-bold navbar-expand-lg w-sm-25 px-md-5">
+      <nav className="navbar navbar-light fw-bold navbar-expand-lg w-sm-25 px-md-5">
         <div className="container-fluid">
-          <a className="navbar-brand d-none d-md-block" href="#">
-            <span className="fw-bolder fs-4 text-white">{brandName}</span>
-          </a>
+            <span className="fw-bolder text-white navbar-brand d-none d-md-block" id="brand">{brandName}</span>
           {/* Nav Button */}
           <button
             className="navbar-toggler"
@@ -55,7 +53,7 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
                 <div
                   className="d-flex justify-content-center align-items-center"
                 >
-                  <img src={imageScrPath} alt="" />
+                  <img src={imageScrPath} alt="" width="32px"/>
                 </div>
               </li>
             </ul>

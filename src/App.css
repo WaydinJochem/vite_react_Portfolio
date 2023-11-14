@@ -6,18 +6,21 @@
   height: 2rem !important;
   width: 2.75rem !important;
 }
+.navbar{
+  background-color: #000000 !important;
+}
 
 .navbar-brand span {
   font-size: 40px !important;
   margin: 0 auto;
 }
-li a {
+.nav-link {
   color: #ffffff !important;
   /* text-decoration: underline !important; */
   font-size: 24px !important;
   font-weight: bold !important;
 }
-ul {
+.navbar-nav {
   gap: 2rem !important;
 }
 .active {
@@ -28,9 +31,10 @@ ul {
 #dwn {
   font-size: 16px !important;
 }
-img {
-  width: 32px !important;
+#brand{
+  font-size: 40px;
 }
+
 
 @media (min-width: 768px) {
   li a {
