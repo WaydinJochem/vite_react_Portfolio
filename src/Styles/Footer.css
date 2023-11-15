@@ -1,11 +1,12 @@
-body {
+/* body {
     color: #FFFFFF;
     font-weight: bold;
     font-size: 24px;
-}
+} */
 footer {
     padding: 0 1rem;
     margin: auto;
+    color: #FFFFFF;
 }
 hr {
     border-radius: 20px;
