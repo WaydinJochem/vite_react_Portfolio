@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "../App.css"
 
 interface NavbarProps {
   brandName: string;
@@ -14,7 +15,7 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
     <>
       <nav className="navbar navbar-light fw-bold navbar-expand-lg w-sm-25 px-md-5">
         <div className="container-fluid">
-            <span className="fw-bolder text-white navbar-brand d-none d-md-block" id="brand">{brandName}</span>
+            <span className="fw-bolder fs-4 text-white navbar-brand d-none d-md-block">{brandName}</span>
           {/* Nav Button */}
           <button
             className="navbar-toggler"
