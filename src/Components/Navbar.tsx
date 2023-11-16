@@ -14,6 +14,9 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
     <>
       <nav className="navbar navbar-light bg-black fw-bold navbar-expand-lg w-sm-25 px-md-5">
         <div className="container-fluid">
+        <a className="navbar-brand d-md-none mx-auto" href="#">
+            <span className="fw-bolder fs-4 text-white ">Navigation</span>
+          </a>
           <a className="navbar-brand d-none d-md-block" href="#">
             <span className="fw-bolder fs-4 text-white">{brandName}</span>
           </a>
@@ -62,9 +65,7 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
           </div>
           {/* Nav Items End */}
 
-          <a className="navbar-brand d-md-none mx-auto" href="#">
-            <span className="fw-bolder fs-4 text-white ">Navigation</span>
-          </a>
+          
         </div>
       </nav>
     </>
