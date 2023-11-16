@@ -31,7 +31,7 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
           {/* Nav Button End */}
           {/* Nav items */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto d-flex justify-content-between align-items-center me-5-md py-2 flex-column flex-lg-row">
+            <ul className="navbar-nav ms-auto d-flex justify-content-between align-items-center me-5-md py-2 flex-column flex-lg-row gap-5">
               {navItems.map((items, index) => (
                 <>
                   <li
@@ -47,14 +47,14 @@ const Navbar = ({ brandName, imageScrPath, navItems }: NavbarProps) => {
                   </li>
                 </>
               ))}
-              <li className="nav-item">
+              <li className="nav-item d-flex flex-column align-items-center">
                 <a className="nav-link text-decoration-none" href="#" id="dwn">
                   Download CV
                 </a>
                 <div
-                  className="d-flex justify-content-center align-items-center"
+                  className=""
                 >
-                  <img src={imageScrPath} alt="" width="32px"/>
+                  <img src={imageScrPath} alt="" width="32px" className=""/>
                 </div>
               </li>
             </ul>
