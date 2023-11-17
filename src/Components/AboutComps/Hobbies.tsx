@@ -1,8 +1,7 @@
 // AboutPage.jsx
-import "../Styles/About.css"
 import React, { useState, useEffect } from 'react';
-import Carousel from './AboutComps/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from './Carousel';
+
 
 interface Hobby {
   id: number;
@@ -37,17 +36,17 @@ const Hobbies: React.FC = () => {
 
   return (
     <>
-      <div className="card mx-auto my-5 p-5" id="firstcard">
+      <div className="card my-5 p-5" id="firstcard">
         <Carousel
           hobbies={hobbies}
           currentHobbyIndex={currentHobbyIndex}
           onSlide={CarouselSlide}
         />
         <div className="mx-auto text-center">
-          <h2>Passions & Hobbies</h2>
-          <div className="card mt-5 rounded-0" style={{ width: '40rem' }} id="hobbies">
+          <h3>Passions & Hobbies</h3>
+          <div className="card mt-5 rounded-0" style={{ width: '40rem' }} id="add_on">
             <div className="card-body">
-              <h4 className="card-title">{hobbies[currentHobbyIndex]?.title}</h4>
+              <h4 className="card-title" style={{fontWeight: "bold", fontSize: "30px"}}>{hobbies[currentHobbyIndex]?.title}</h4>
               <p className="card-text">{hobbies[currentHobbyIndex]?.descr}</p>
             </div>
           </div>

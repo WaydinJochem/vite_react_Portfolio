@@ -8,7 +8,6 @@ import AboutPage from "./Pages/AboutPage";
 
 function App() {
   const items = ["Home", "About", "Projects", "Skills","Contact"];
-  // const img = ["https://i.postimg.cc/qq5kwftf/Premium-Photo-Astronaut-couple-holding-hands-as-they-look-out-into-the-galaxy.jpg"];
   return (
     <>
       <Navbar brandName="Menu" imageScrPath={imagePath} navItems={items}/>
