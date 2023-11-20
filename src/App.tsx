@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import HomePage from "./Components/HomePage";
+import SkillComp from "./Components/SkillComp";
 import imagePath from "./assets/icons8-download-80.png";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <Navbar brandName="Menu" imageScrPath={imagePath} navItems={items} />
       <main>
-        <HomePage />
+       <SkillComp/>
       </main>
       <Footer />
     </>
