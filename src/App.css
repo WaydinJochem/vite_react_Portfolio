@@ -2,16 +2,3 @@
   margin: 0;
 }
 
-
-
-@media (min-width: 768px) {
-  li a {
-    text-decoration: underline !important;
-  }
-}
-@media (max-width: 568px) {
-  li a {
-    text-underline-offset: 20rem;
-  }
-}
-
