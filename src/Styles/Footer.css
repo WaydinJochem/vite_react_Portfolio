@@ -19,9 +19,7 @@ section {
 section div {
     padding: 0 3rem;
 }
-/* #location {
-    background-color: #000000;
-} */
+
 #copyright {
     display: flex;
     justify-content: center;
