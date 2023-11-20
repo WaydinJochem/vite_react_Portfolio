@@ -1,6 +1,5 @@
 // Carousel.jsx
-import React from 'react';
-
+import React from "react";
 
 interface CarouselProps {
   hobbies: Hobby[];
@@ -8,7 +7,11 @@ interface CarouselProps {
   onSlide: (index: number) => void;
 }
 
-const Carousel: React.FC<CarouselProps> = ({ hobbies, currentHobbyIndex, onSlide }) => {
+const Carousel: React.FC<CarouselProps> = ({
+  hobbies,
+  currentHobbyIndex,
+  onSlide,
+}) => {
   return (
     <>
       <div id="carouselExample" className="carousel slide">
@@ -17,7 +20,9 @@ const Carousel: React.FC<CarouselProps> = ({ hobbies, currentHobbyIndex, onSlide
           {hobbies.map((_, index) => (
             <button
               key={index}
-              className={`custom-indicator ${index === currentHobbyIndex ? 'active' : ''}`}
+              className={`custom-indicator ${
+                index === currentHobbyIndex ? "active" : ""
+              }`}
               data-bs-target="#carouselExample"
               data-bs-slide-to={index}
               onClick={() => onSlide(index)}
@@ -28,7 +33,9 @@ const Carousel: React.FC<CarouselProps> = ({ hobbies, currentHobbyIndex, onSlide
           {hobbies.map((hobby, index) => (
             <div
               key={hobby.id}
-              className={`carousel-item ${index === currentHobbyIndex ? 'active' : ''}`}
+              className={`carousel-item ${
+                index === currentHobbyIndex ? "active" : ""
+              }`}
             >
               <img
                 src={hobby.img}
@@ -45,9 +52,14 @@ const Carousel: React.FC<CarouselProps> = ({ hobbies, currentHobbyIndex, onSlide
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="prev"
-          onClick={() => onSlide((currentHobbyIndex - 1 + hobbies.length) % hobbies.length)}
+          onClick={() =>
+            onSlide((currentHobbyIndex - 1 + hobbies.length) % hobbies.length)
+          }
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -57,7 +69,10 @@ const Carousel: React.FC<CarouselProps> = ({ hobbies, currentHobbyIndex, onSlide
           data-bs-slide="next"
           onClick={() => onSlide((currentHobbyIndex + 1) % hobbies.length)}
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Next</span>
         </button>
         {/* Controls End */}
@@ -67,4 +82,3 @@ const Carousel: React.FC<CarouselProps> = ({ hobbies, currentHobbyIndex, onSlide
 };
 
 export default Carousel;
-

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import Testimonials from "./Testimonials";
 
 interface TestProps {
   id: number;
@@ -27,7 +26,7 @@ const TestView: React.FC = () => {
   }, []);
 
   return (
-    <div className="flip-main mx-auto mt-4">
+    <div className="flip-main mx-auto">
       {Testimonials.map((_, index) => (
        <div className="container" key={index}>
        <img src={_.img} alt="Avatar" className="image"/>

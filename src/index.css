@@ -4,16 +4,7 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-  font-family: 'Sansation', sans-serif !important;
-  min-width: 320px;
-  min-height: 100vh;
-  background: url("https://i.postimg.cc/cHKtjkQy/fotor-ai-2023110311051.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 
 
 /* @media (prefers-color-scheme: light) {

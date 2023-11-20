@@ -28,7 +28,7 @@ const Hobbies: React.FC = () => {
     };
 
     fetchData();
-  }, []); // empty dependency array ensures that the effect runs only once on component mount
+  }, []); 
 
   const CarouselSlide = (index: number) => {
     setCurrentHobbyIndex(index);
@@ -36,7 +36,7 @@ const Hobbies: React.FC = () => {
 
   return (
     <>
-      <div className="card my-5 p-5" id="firstcard">
+      <div className="card p-5" id="firstcard">
         <Carousel
           hobbies={hobbies}
           currentHobbyIndex={currentHobbyIndex}
