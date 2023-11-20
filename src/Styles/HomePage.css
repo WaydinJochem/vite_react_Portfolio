@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+    margin: 0;
+    font-family: "Sansation", sans-serif !important;
+    min-width: 320px;
+    min-height: 100vh;
+    background: url("https://i.postimg.cc/cHKtjkQy/fotor-ai-2023110311051.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 125vh;
+}
 
 #card {
     background-color: #4f1c54cf;
     margin: 3rem 13rem;
     box-shadow: 10px 10px 10px #000000b3;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 33% 66%;
     border-radius: 10px;
 }
 
@@ -39,7 +48,7 @@
 #icons ul {
     padding: 0;
     display: flex;
-    gap: .5rem;
+    gap: 0.5rem;
     list-style: none;
 }
 a img {
@@ -54,13 +63,13 @@ a {
 a span {
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: -50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
-    color: #D4D4D1;
+    color: #d4d4d1;
 }
-a span:hover{
+a span:hover {
     opacity: 1;
 }
