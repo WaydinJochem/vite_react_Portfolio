@@ -39,6 +39,7 @@
 #icons ul {
     padding: 0;
     display: flex;
+    gap: .5rem;
     list-style: none;
 }
 a img {
@@ -57,7 +58,7 @@ a span {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: small;
+    font-size: large;
     color: #D4D4D1;
 }
 a span:hover{

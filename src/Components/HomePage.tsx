@@ -16,7 +16,7 @@ const HomePage = () => {
         />
       </div>
       <div id="intro">
-        <h1>About Me</h1>
+        <h1>Hi There</h1>
         <p>
           Introducing my latest website portfolio design, inspired and created
           through multiple trial and error, I would like to say welcome to a
