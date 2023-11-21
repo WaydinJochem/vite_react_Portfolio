@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
 interface Skills{
   id: number;
@@ -6,7 +7,8 @@ interface Skills{
   name: string;
 }
 
-const SkillsAni:Skills = () => {
+const SkillsAni:React.FC = () => {
+  const skill = useState<Skills[]>([])
   return (
     <> 
     <marquee width="100%" direction="left" >
