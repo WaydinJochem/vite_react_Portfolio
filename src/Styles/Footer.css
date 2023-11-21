@@ -1,25 +1,28 @@
-body {
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 24px;
+footer {
+    padding: 0 5rem;
+    margin: auto;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
 }
 footer {
     padding: 0 1rem;
     margin: auto;
+    color: #FFFFFF;
 }
 hr {
     border-radius: 20px;
     border-top: 4px solid #FFFFFF; 
+    margin: 0 3rem;
 }
 section {
     display: flex;
     justify-content: space-between;
-    margin: 0 2rem;
+    margin: 0 4rem;
 }
 section div {
     padding: 0 3rem;
 }
-
 #copyright {
     display: flex;
     justify-content: center;
@@ -27,11 +30,17 @@ section div {
 #location {
    display: flex;
    align-items: center;
+   gap: .25rem;
 }
 #location img {
-    transform: scale(2);
+    transform: scale(1.5);
     height: 30px;
 
+}
+#email{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
 }
 #map {
     margin: 0;
