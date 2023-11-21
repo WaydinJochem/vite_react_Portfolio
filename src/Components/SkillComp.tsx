@@ -1,9 +1,12 @@
-import React from 'react'
 import SkillsAni from './Skills/SkillsAni'
+import "../Styles/SkillsPage.css";
+
 
 const SkillComp = () => {
   return (
-   <SkillsAni/>
+    <> 
+      <SkillsAni/>
+    </>
   )
 }
 
