@@ -10,9 +10,8 @@ body {
   min-height: 100vh;
   background: url("https://i.postimg.cc/cHKtjkQy/fotor-ai-2023110311051.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw 125vh;
-  /* background-position: center; */
-  /* background-size: cover; */
+  background-size: cover;
+  background-position: center;
 }
 
 
