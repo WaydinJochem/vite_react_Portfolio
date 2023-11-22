@@ -1,27 +1,12 @@
-@import url('https://fonts.cdnfonts.com/css/sansation');
-
-:root {
-  /* line-height: 10.5; */
-  color-scheme: light dark;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+@import url("https://fonts.cdnfonts.com/css/sansation");
 
 * {
   box-sizing: border-box;
 }
-body{
-  margin: 0;
-  font-family: "Sansation", sans-serif;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 
-@media (prefers-color-scheme: light) {
+
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -32,4 +17,4 @@ body{
   button {
     background-color: #f9f9f9;
   }
-}
+} */

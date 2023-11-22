@@ -1,12 +1,12 @@
 import "./App.css";
-import ProjectPage from "./Components/Pages/ProjectPage";
+import HomePage from "./Components/HomePage";
 
 
 function App() {
 
   return (
     <>
-  <ProjectPage/>
+        <HomePage />
     </>
   );
 }
