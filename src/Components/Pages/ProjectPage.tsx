@@ -1,18 +1,9 @@
-import React, { useEffect, useState } from "react"
 import "../Style/Projects.css"
+import Card from "./Projects/Card"
 
-interface projectProp{
-  id: number;
-  name: string;
-  desc: string;
-  hostlink: string;
-  github: string;
-}
-
-const ProjectPage: React.FC = () => {
-  const [projects,setProjects ] =useState<>
+const ProjectPage = () => {
   return (
-    <div>ProjectPage</div>
+    <Card/>
   )
 }
 

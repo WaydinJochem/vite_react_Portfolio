@@ -1,0 +1,88 @@
+body {
+    padding: 5rem;
+    background: url("https://i.postimg.cc/cHKtjkQy/fotor-ai-2023110311051.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 150vh;
+    background-position: center;
+}
+.prodCard {
+    display: grid;
+    margin:0 10rem;
+    grid-template-columns: auto auto auto;
+}
+.inner-prod{
+    width: 15rem;
+    height: 17rem;
+    background: linear-gradient(#d9d9d9, #d9d9d922);
+    border: none;
+    box-shadow: -5px 4px #92909080;
+    border-radius: 20px;
+    padding: 0.25rem;
+    font-weight: bold;
+}
+.prodTitle {
+    text-align: center;
+    color: #000000;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.prodDesc {
+    font-size: 15px;
+    text-align: center;
+    color: #333;
+    font-weight: 800;
+    margin: 0 10px;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+    margin: 0 20px;
+}
+button img{
+    width: 40px;
+    height: 40px;
+}
+.btn button {
+    width: 5rem;
+    height: 40px;
+    border: transparent;
+    border-radius: 2px;
+    position: relative;
+    background: linear-gradient(#d9d9d9, #d9d9d900);
+    margin-top: 1rem;
+}
+.overlay {
+    position: absolute;
+    border-radius: 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#331878, rgba(64, 70, 191, 0.14));
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+.overlay a {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-host:hover .overlay {
+    height: 100%;
+}
+
+.btn-git:hover .overlay {
+    height: 100%;
+}
