@@ -9,7 +9,6 @@ interface projectProp{
   }
 
 const Card: React.FC = () => {
-
   const [projects,setProjects ] =useState<projectProp[]>([]);
 
   useEffect(() => {
@@ -32,25 +31,30 @@ const Card: React.FC = () => {
       {
         projects.map((_,index) => (
           <div key={index} className="inner-prod">
+            <div>
             <h1 className="prodTitle">{_.name}</h1>
             <p className="prodDesc">{_.desc}</p>
-            <hr />
+            
+            <div>
+            <hr/>
             <span style={{marginLeft: "15px", color: "black"}}>View Projects:</span>
-            <div className="btn">
-              <button className="btn-host">
-                <img src="https://i.postimg.cc/TYYr1fyr/icons8-globe-50.png" alt="" />
-                <div className="overlay">
-                <a href={_.hostlink} target="blank">Link</a>
+            </div>
+                <div className="btn">
+                  <button className="btn-host">
+                    <img src="https://i.postimg.cc/TYYr1fyr/icons8-globe-50.png" alt="" />
+                    <div className="overlay">
+                    <a href={_.hostlink} target="blank">Link</a>
+                    </div>
+                  </button>
+                  <button className="btn-git">
+                    <img src="https://i.postimg.cc/kMyQ7B5J/icons8-github-50.png" alt="" />
+                    <div className="overlay">
+                    <a href="#">
+                      GitHub
+                    </a>
+                    </div>
+                  </button>
                 </div>
-              </button>
-              <button className="btn-git">
-                <img src="https://i.postimg.cc/kMyQ7B5J/icons8-github-50.png" alt="" />
-                <div className="overlay">
-                <a href="#">
-                  GitHub
-                </a>
-                </div>
-              </button>
             </div>
           </div>
         ))

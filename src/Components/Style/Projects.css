@@ -2,15 +2,16 @@ body {
     padding: 5rem;
     background: url("https://i.postimg.cc/cHKtjkQy/fotor-ai-2023110311051.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 150vh;
+    background-size: 100vw;
     background-position: center;
 }
 .prodCard {
     display: grid;
-    margin:0 10rem;
+    margin: 0 10rem;
     grid-template-columns: auto auto auto;
+    gap: 5rem;
 }
-.inner-prod{
+.inner-prod {
     width: 15rem;
     height: 17rem;
     background: linear-gradient(#d9d9d9, #d9d9d922);
@@ -19,6 +20,11 @@ body {
     border-radius: 20px;
     padding: 0.25rem;
     font-weight: bold;
+    display: grid;
+    grid-template-rows:auto auto auto;
+}
+hr{
+    margin: 1rem 0 .25rem  0;
 }
 .prodTitle {
     text-align: center;
@@ -41,7 +47,7 @@ body {
     margin-top: 10px;
     margin: 0 20px;
 }
-button img{
+button img {
     width: 40px;
     height: 40px;
 }
