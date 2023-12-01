@@ -1,14 +1,4 @@
-body {
-  margin: 0;
-  padding:5rem 0;
-  font-family: 'Sansation', sans-serif !important;
-  min-width: 320px;
-  min-height: 100vh;
-  background: url("https://i.postimg.cc/cHKtjkQy/fotor-ai-2023110311051.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 .card {
     background-color: #4f1c54cf !important;
     font-weight: bold !important;
@@ -68,8 +58,9 @@ h3 {
     border-radius: 50%;
  }
  #last_card{
-    width: 75.938rem !important;
-    box-shadow: 10px 10px 4px #00000040!important;
+  background-color: transparent !important;
+    /* width: 75.938rem !important;
+    box-shadow: 10px 10px 4px #00000040!important; */
  }
 .flip-main{
     display: grid;
@@ -97,6 +88,7 @@ h3 {
     display: block;
     width: 300px !important;
     height: 300px;
+    object-fit: cover;
   }
   #over-image{
     width: 3rem !important;

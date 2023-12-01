@@ -23,7 +23,7 @@ img {
   font-size: large;
   font-weight: bold;
   backdrop-filter: blur(10px);
-  color: #FFFF;
+  color: black;
   padding: 2px;
 }
 .skill:hover .center{

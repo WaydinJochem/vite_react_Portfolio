@@ -12,13 +12,13 @@ const Footer = () => {
   const gmail = mail;
   return (
     <footer>
-      <hr />
+      <hr id="hr"/>
       <section>
         <div id="email">
-          <img src={gmail} alt="" id="email" /> jochem7405@gmail.com
+          <img src={gmail} alt="" id="email" style={{width: "4rem"}}/> jochem7405@gmail.com
         </div>
         <div id="location">
-          <img src={img} alt="location" />
+          <img src={img} alt="location"  style={{width: "2.5rem"}}/>
           <div id="map">
             Landowne, <br /> Cape Town,
             <br /> South Africa <br />

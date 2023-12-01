@@ -1,8 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/sansation");
 
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: "Sansation", sans-serif !important;
@@ -13,17 +15,3 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */

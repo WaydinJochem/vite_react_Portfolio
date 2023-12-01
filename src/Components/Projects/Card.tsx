@@ -36,20 +36,20 @@ const Card: React.FC = () => {
             <p className="prodDesc">{_.desc}</p>
             
             <div>
-            <hr/>
+            <hr className="line"/>
             <span style={{marginLeft: "15px", color: "black"}}>View Projects:</span>
             </div>
-                <div className="btn">
+                <div className="btt">
                   <button className="btn-host">
-                    <img src="https://i.postimg.cc/TYYr1fyr/icons8-globe-50.png" alt="" />
-                    <div className="overlay">
+                    <img src="https://i.postimg.cc/TYYr1fyr/icons8-globe-50.png" alt={_.name} />
+                    <div className="overlap">
                     <a href={_.hostlink} target="blank">Link</a>
                     </div>
                   </button>
                   <button className="btn-git">
-                    <img src="https://i.postimg.cc/kMyQ7B5J/icons8-github-50.png" alt="" />
-                    <div className="overlay">
-                    <a href="#">
+                    <img src="https://i.postimg.cc/kMyQ7B5J/icons8-github-50.png" alt={_.name}/>
+                    <div className="overlap">
+                    <a href={_.github} target="blank">
                       GitHub
                     </a>
                     </div>

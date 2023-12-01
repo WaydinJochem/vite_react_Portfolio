@@ -1,10 +1,9 @@
-body {
-    padding: 5rem;
+/* body {
     background: url("https://i.postimg.cc/cHKtjkQy/fotor-ai-2023110311051.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 100vw 100vh;
     background-position: center;
-}
+} */
 .prodCard {
     display: grid;
     margin: 0 10rem;
@@ -18,13 +17,14 @@ body {
     border: none;
     box-shadow: -5px 4px #92909080;
     border-radius: 20px;
-    padding: 0.25rem;
+    padding: 0.5rem;
     font-weight: bold;
     display: grid;
     grid-template-rows:auto auto auto;
 }
-hr{
+.line{
     margin: 1rem 0 .25rem  0;
+    color: #FFFFFF;
 }
 .prodTitle {
     text-align: center;
@@ -39,7 +39,7 @@ hr{
     font-weight: 800;
     margin: 0 10px;
 }
-.btn {
+.btt {
     display: flex;
     flex-direction: row;
     flex-direction: row;
@@ -51,7 +51,7 @@ button img {
     width: 40px;
     height: 40px;
 }
-.btn button {
+.btt button {
     width: 5rem;
     height: 40px;
     border: transparent;
@@ -60,7 +60,7 @@ button img {
     background: linear-gradient(#d9d9d9, #d9d9d900);
     margin-top: 1rem;
 }
-.overlay {
+.overlap {
     position: absolute;
     border-radius: 2px;
     bottom: 0;
@@ -72,7 +72,7 @@ button img {
     height: 0;
     transition: 0.5s ease;
 }
-.overlay a {
+.overlap a {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -85,10 +85,10 @@ button img {
     text-decoration: none;
 }
 
-.btn-host:hover .overlay {
+.btn-host:hover .overlap {
     height: 100%;
 }
 
-.btn-git:hover .overlay {
+.btn-git:hover .overlap {
     height: 100%;
 }
