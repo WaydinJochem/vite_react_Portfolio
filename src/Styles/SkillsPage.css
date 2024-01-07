@@ -36,7 +36,7 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0 auto;
-  gap: 10rem;
+  gap: 8rem;
   margin-top: 3rem;
   /* animation: marqueeAnimation 6s linear infinite;  */
 }

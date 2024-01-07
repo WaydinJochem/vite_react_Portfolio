@@ -31,7 +31,7 @@ const SkillsAni: React.FC = () => {
   }, []);
   return (
     <>
-      <Marquee speed={200} pauseOnHover={true}>
+      <Marquee speed={150} pauseOnHover={true}>
         <div className="marquee-content">
           {firstHalf.map((skill) => (
             <div key={skill.id} className="skill">
@@ -41,7 +41,7 @@ const SkillsAni: React.FC = () => {
           ))}
         </div>
       </Marquee>
-      <Marquee speed={200} direction="right" pauseOnHover={true}>
+      <Marquee speed={150} direction="right" pauseOnHover={true}>
         <div className="marquee-content">
           {secondHalf.map((skill) => (
             <div key={skill.id} className="skill">
