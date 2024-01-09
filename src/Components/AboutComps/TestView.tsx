@@ -26,7 +26,7 @@ const TestView: React.FC = () => {
   }, []);
 
   return (
-    <div className="flip-main mx-auto">
+    <div className="flip-main mx-auto mb-5">
       {Testimonials.map((_, index) => (
        <div className="container" key={index}>
        <img src={_.img} alt="Avatar" className="image"/>
@@ -34,7 +34,7 @@ const TestView: React.FC = () => {
          <div className="text">
             <div className="d-flex flex-row mb-3">
                 <img src={_.img} alt="" id="over-image"/>
-                <h4 className="mb-2 ms-3">{_.name}</h4>
+                <h5 className="my-auto ms-3">{_.name}</h5>
             </div>
             <p className="">
                 {_.state}

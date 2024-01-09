@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div className="info">
         <h3 className="text-center">More About Me:</h3>
         <div
-          className="card mx-auto  p-5 text-center my-5"
+          className="card mx-auto p-5 text-center my-5"
           style={{ width: "30.938rem" }}
           id="add_on"
         >

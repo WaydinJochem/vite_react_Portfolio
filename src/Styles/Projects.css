@@ -1,14 +1,10 @@
-/* body {
-    background: url("https://i.postimg.cc/cHKtjkQy/fotor-ai-2023110311051.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    background-position: center;
-} */
+
 .prodCard {
     display: grid;
-    margin: 0 10rem;
+    margin: 0 20rem;
     grid-template-columns: auto auto auto;
     gap: 5rem;
+    margin-bottom: 6rem;
 }
 .inner-prod {
     width: 15rem;

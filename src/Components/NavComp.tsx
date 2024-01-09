@@ -31,15 +31,15 @@ const NavComp: React.FC = () => {
           <Link to="/about"><span>About</span></Link>
           <Link to="/projects"><span>Projects</span></Link>
           <Link to="/skills"><span>Skills</span></Link>
-          <Link><span>Contact</span></Link>
-          <Link id="down">
+          <span>Contact</span>
+          <div id="down">
             <span>
               <p>Download</p>
               <a>
                 <FaDownload />
               </a>
             </span>
-          </Link>
+          </div>
         </div>
         <a className="icon" onClick={toggleResponsiveness}>
           <div

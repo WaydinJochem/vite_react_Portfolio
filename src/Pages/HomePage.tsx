@@ -17,24 +17,25 @@ const HomePage: React.FC = () => {
         />
       </div>
       <div id="intro">
-        <h1>Hi There</h1>
-        <p>
-          Introducing my latest website portfolio design, inspired and created
-          through multiple trial and error, I would like to say welcome to a
-          world that was created by Waydin Jochem
-        </p>
-        <div id="icons">
-          <ul>
+        <div>
+          <h1><strong>!!!</strong> Hello World <strong>!!!</strong></h1>
+          <p>
+            Introducing my latest website portfolio design, inspired and created
+            through multiple trial and error, I would like to say welcome to a
+            world that was created by Waydin Jochem.
+          </p>
+        </div>
+        <br />
+          <ul id="icons">
             {icons.map((icons, index) => (
               <li key={icons}>
                 <a href="#" className="link">
                   <img src={icons} alt="" />
-                  <span className="text">{iconNames[index]}</span>
+                  <span className="texts">{iconNames[index]}</span>
                 </a>
               </li>
             ))}
           </ul>
-        </div>
       </div>
     </section>
   );

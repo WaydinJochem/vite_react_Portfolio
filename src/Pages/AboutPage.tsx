@@ -9,9 +9,9 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 const AboutPage = () => {
   return (
     <div id="aboutPage" className="d-flex flex-column align-items-center gap-5">
-    <Hobbies/>
     <AboutMe/>
     <Testimonials/>
+    <Hobbies/>
     </div>
   )
 }

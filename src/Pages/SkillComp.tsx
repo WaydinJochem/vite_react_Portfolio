@@ -4,9 +4,9 @@ import SkillsAni from '../Components/Skills/SkillsAni'
 
 const SkillComp = () => {
   return (
-    <div id='skills'> 
+    <> 
       <SkillsAni/>
-    </div>
+    </>
   )
 }
 

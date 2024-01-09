@@ -1,5 +1,6 @@
 // Carousel.jsx
 import React from "react";
+// import Hobbies as hobbies from "./Hobbies"
 
 interface CarouselProps {
   hobbies: Hobby[];

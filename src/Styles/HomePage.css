@@ -2,13 +2,16 @@
 
 #card {
     background-color: #4f1c54cf;
-    margin: 3rem 13rem;
+    margin: 3rem 15rem;
     box-shadow: 10px 10px 10px #000000b3;
     display: grid;
     grid-template-columns: 33% 66%;
     border-radius: 10px;
 }
 
+#card div{
+    padding: 0 2rem;
+}
 #profile {
     display: flex;
     justify-content: center;
@@ -36,12 +39,12 @@
     font-weight: normal;
     font-size: 20px;
 }
-#icons ul {
-    padding: 0;
-    display: flex;
-    gap: 0.5rem;
-    list-style: none;
+#icons {
+  list-style-type: none;
+  display: flex;
+  gap: 0.25rem;
 }
+
 .link img {
     width: 60px;
     height: auto;
@@ -51,16 +54,18 @@
 .link {
     position: relative;
 }
-.link span {
+.texts{
     opacity: 0;
     position: absolute;
-    top: -50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: large;
     color: #d4d4d1;
+    font-size: 14px;
+    font-weight: normal;
 }
+
 .link span:hover {
     opacity: 1;
 }
