@@ -41,13 +41,13 @@ const Card: React.FC = () => {
             </div>
                 <div className="btt">
                   <button className="btn-host">
-                    <img src="https://i.postimg.cc/TYYr1fyr/icons8-globe-50.png" alt={_.name} />
+                    <img src="https://i.ibb.co/p4KTkLf/icons8-globe-50.png" alt={_.name} />
                     <div className="overlap">
                     <a href={_.hostlink} target="blank">Link</a>
                     </div>
                   </button>
                   <button className="btn-git">
-                    <img src="https://i.postimg.cc/kMyQ7B5J/icons8-github-50.png" alt={_.name}/>
+                    <img src="https://i.ibb.co/5KBxp0q/icons8-github-50.png" alt={_.name}/>
                     <div className="overlap">
                     <a href={_.github} target="blank">
                       GitHub
