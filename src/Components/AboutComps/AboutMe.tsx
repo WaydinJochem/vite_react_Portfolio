@@ -3,7 +3,7 @@ const AboutMe = () => {
     <div className="card p-5 my-5" id="firstcard">
       <div>
         <img
-          src="https://i.postimg.cc/DwkPHvTm/Waydin-auto-x2-removebg-preview.png"
+          src="https://i.ibb.co/1bpbzJy/Waydin-auto-x2-removebg-preview.png"
           alt=""
           id="img"
         />
