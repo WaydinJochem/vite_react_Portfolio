@@ -3,16 +3,16 @@ import "../Styles/HomePage.css";
 
 const HomePage: React.FC = () => {
   const icons = [
-    "https://i.postimg.cc/bYBJCH5L/icons8-linkedin-80.png",
-    "https://i.postimg.cc/k4NHVcbC/icons8-firebase-a-google-s-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-80.png",
-    "https://i.postimg.cc/h4dbcrdZ/icons8-github-80-1.png",
+    "https://i.ibb.co/yyDSq0L/icons8-linkedin-80.png",
+    "https://i.ibb.co/Gd9b4gS/icons8-firebase-a-google-s-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-80.png",
+    "https://i.ibb.co/5KBxp0q/icons8-github-50.png",
   ];
   const iconNames = ["LinkedIn", "Firebase", "Github"];
   return (
     <section id="card">
       <div id="profile">
         <img
-          src="https://i.postimg.cc/DwkPHvTm/Waydin_auto_x2-removebg-preview.png"
+          src="https://i.ibb.co/1bpbzJy/Waydin-auto-x2-removebg-preview.png"
           alt=""
         />
       </div>
