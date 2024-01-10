@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <div id="copyright">WaydinJochem@{<CurrentYear />}</div>
+      <div id="copyright">WaydinJochem&copy;{<CurrentYear />}</div>
     </footer>
   );
 };
