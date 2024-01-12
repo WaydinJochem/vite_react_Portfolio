@@ -41,7 +41,7 @@ img {
   margin-top: 3rem;
 }
 
-/* Styles for the overlay */
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -60,6 +60,19 @@ img {
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.4);
   text-align: center;
+  button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
 }
 
 
@@ -77,16 +90,4 @@ img {
   margin-bottom: 10px;
 }
 
-/* Optional styles for the close button */
-button {
-  background: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-button:hover {
-  background: #0056b3;
-}

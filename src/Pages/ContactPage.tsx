@@ -1,9 +1,9 @@
-
+import Form from "../Components/Contact/Form"
 import "../Styles/Contact.css"
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <Form/>
   )
 }
 
