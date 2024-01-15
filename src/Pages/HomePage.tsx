@@ -4,10 +4,11 @@ import "../Styles/HomePage.css";
 const HomePage: React.FC = () => {
   const icons = [
     "https://i.ibb.co/yyDSq0L/icons8-linkedin-80.png",
-    "https://i.ibb.co/Gd9b4gS/icons8-firebase-a-google-s-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-80.png",
     "https://i.ibb.co/5KBxp0q/icons8-github-50.png",
+    "https://i.ibb.co/WgMBYRG/vercel-256x225.png",
   ];
-  const iconNames = ["LinkedIn", "Firebase", "Github"];
+  const references = ["https://www.linkedin.com/in/waydinjochem/",  "https://github.com/WaydinJochem?tab=repositories","https://vercel.com/waydinjochems-projects",]
+  const iconNames = ["LinkedIn", "Github", "Vercel"];
   return (
     <section id="card">
       <div id="profile">
@@ -29,7 +30,7 @@ const HomePage: React.FC = () => {
           <ul id="icons">
             {icons.map((icons, index) => (
               <li key={icons}>
-                <a href="#" className="link">
+                <a href={references[index]} className="link">
                   <img src={icons} alt="" />
                   <span className="texts">{iconNames[index]}</span>
                 </a>
