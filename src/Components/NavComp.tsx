@@ -43,7 +43,7 @@ const NavComp: React.FC = () => {
             <span>Contact</span>
           </Link>
           <div id="down">
-              <a href="https://drive.google.com/file/d/13NU8XP9YfdmxU4slnqroxUeidltqUbfP/view?usp=sharing" target="blank">
+              <a href="https://drive.google.com/file/d/16mW9szEjvYZFhQsc9ScQqVUJH685NV2e/view?usp=sharing" target="blank">
               {/* <p>Preview</p> */}
             <span >
               <GiCyberEye>
