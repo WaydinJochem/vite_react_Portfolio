@@ -44,9 +44,11 @@ const NavComp: React.FC = () => {
           </Link>
           <div id="down">
               <a href="https://drive.google.com/file/d/13NU8XP9YfdmxU4slnqroxUeidltqUbfP/view?usp=sharing" target="blank">
-              <p>Preview</p>
-            <span>
-              <GiCyberEye />
+              {/* <p>Preview</p> */}
+            <span >
+              <GiCyberEye>
+              </GiCyberEye>
+              <span>Preview</span>
             </span>
               </a>
           </div>

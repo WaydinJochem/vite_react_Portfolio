@@ -97,30 +97,23 @@
 #down {
   font-size: large;
   text-decoration: none;
-  p{
+  p {
     margin-bottom: 0.02rem;
   }
-  span{
+  span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotateY(270deg);
-    &:hover{
+    &:hover {
       color: hotpink;
-      /* transform:rotateY('270deg') */
     }
   }
-  a{
+  a {
     text-decoration: none;
     color: #f2f2f2;
   }
 }
 
-/* @keyframes looking-around{
-  0%{
-    transform:rotateY(180deg);
-  }
-} */
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #04aa6d;
