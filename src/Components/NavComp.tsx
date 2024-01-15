@@ -31,7 +31,7 @@ const NavComp: React.FC = () => {
           <Link to="/about"><span>About</span></Link>
           <Link to="/projects"><span>Projects</span></Link>
           <Link to="/skills"><span>Skills</span></Link>
-          <span>Contact</span>
+          <Link to="/contact"><span>Contact</span></Link>
           <div id="down">
             <span>
               <p>Download</p>

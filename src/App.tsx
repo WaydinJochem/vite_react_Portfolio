@@ -6,6 +6,7 @@ import AboutPage from "./Pages/AboutPage";
 import ProjectPage from "./Pages/ProjectPage";
 import SkillComp from "./Pages/SkillComp";
 import Footer from "./Components/Footer";
+import ContactPage from "./Pages/ContactPage";
 
 
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="about" element={<AboutPage />} />
             <Route path="/skills" element={<SkillComp/>}/>
             <Route path="projects" element={<ProjectPage/>}/>
+            <Route path="contact" element={<ContactPage/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
