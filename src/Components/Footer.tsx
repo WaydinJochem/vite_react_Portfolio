@@ -20,7 +20,7 @@ const Footer = () => {
         <div id="location">
           <img src={img} alt="location"  style={{width: "2.5rem"}}/>
           <div id="map">
-            Landowne, <br /> Cape Town,
+            Lansdowne, <br /> Cape Town,
             <br /> South Africa <br />
           </div>
         </div>
