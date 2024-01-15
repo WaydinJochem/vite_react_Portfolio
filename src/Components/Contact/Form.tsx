@@ -45,11 +45,11 @@ function Form() {
           <div className="form-data">
             <label htmlFor="name">
               <span className="title">Name:</span>
-              <input type="text" id="name" name="name" required />
+              <input type="text" id="name" name="name" required autoComplete="on"/>
             </label>
           </div>
           <div className="form-data">
-            <label htmlFor="email">
+            <label htmlFor="mail">
               <span className="title">Email:</span>
               <input type="email" id="mail" name="mail" required />
             </label>
@@ -60,7 +60,7 @@ function Form() {
           <div className="form-data">
             <label htmlFor="message">
               <p id="msg">Message:</p>
-              <textarea id="message" name="message" required />
+              <textarea id="message" name="message" required autoCapitalize="on"/>
             </label>
           </div>
           <ValidationError
