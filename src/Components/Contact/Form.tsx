@@ -1,5 +1,4 @@
 import { useForm, ValidationError } from "@formspree/react";
-import React from "react";
 // import { useHistory } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
