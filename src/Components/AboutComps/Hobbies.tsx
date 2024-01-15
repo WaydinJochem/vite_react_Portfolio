@@ -1,7 +1,12 @@
 // AboutPage.jsx
 import React, { useState, useEffect } from 'react';
 import Carousel from './Carousel';
-
+interface Hobby {
+  id: number;
+  img: string;
+  title: string;
+  descr: string;
+}
 
 const Hobbies: React.FC = () => {
   const [hobbies, setHobbies] = useState<Hobby[]>([]);
