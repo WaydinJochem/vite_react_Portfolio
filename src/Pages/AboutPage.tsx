@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 const AboutPage = () => {
   return (
-    <div id="aboutPage" className="d-flex flex-column align-items-center gap-5">
+    <div id="aboutPage" className="container">
     <AboutMe/>
     <Testimonials/>
     <Hobbies/>

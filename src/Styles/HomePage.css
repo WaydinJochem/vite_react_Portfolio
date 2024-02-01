@@ -8,8 +8,15 @@
     grid-template-columns: 33% 66%;
     border-radius: 10px;
 }
+/* .homePage {
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+} */
 
-#card div{
+#card div {
     padding: 0 2rem;
 }
 #profile {
@@ -40,9 +47,9 @@
     font-size: 20px;
 }
 #icons {
-  list-style-type: none;
-  display: flex;
-  gap: 0.25rem;
+    list-style-type: none;
+    display: flex;
+    gap: 0.25rem;
 }
 
 .link img {
@@ -54,7 +61,7 @@
 .link {
     position: relative;
 }
-.texts{
+.texts {
     opacity: 0;
     position: absolute;
     top: 50%;

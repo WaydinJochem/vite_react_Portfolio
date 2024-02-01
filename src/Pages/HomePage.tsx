@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
   const references = ["https://www.linkedin.com/in/waydinjochem/",  "https://github.com/WaydinJochem?tab=repositories","https://vercel.com/waydinjochems-projects",]
   const iconNames = ["LinkedIn", "Github", "Vercel"];
   return (
-    <section id="card">
+    <section id="card" className="homePage">
       <div id="profile">
         <img
           src="https://i.ibb.co/1bpbzJy/Waydin-auto-x2-removebg-preview.png"
